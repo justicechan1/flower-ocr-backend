@@ -163,7 +163,7 @@ app = FastAPI()
 # CORS: Vite 프론트 허용
 origins = [
   "http://localhost:5173",  # 개발용
-  # 나중에 배포 도메인 추가 (예: "https://hangil.yourdomain.com")
+  "https://flower-ocr-frontend.vercel.app"
 ]
 
 app.add_middleware(
